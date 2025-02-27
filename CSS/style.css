@@ -378,7 +378,7 @@ footer {
     margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {  
+@media (max-width: 414px) {  
     /* Center the logo on a new line */
     #Headersec {
         display: flex;
@@ -481,7 +481,7 @@ footer {
         }
     
         .para, .about-text {
-            font-size: 0.8rem; /* Reduced font size for better fit */
+            font-size: 0.6rem; /* Reduced font size for better fit */
             max-width: 85vw; /* Ensures text doesn't go out of frame */
             padding: 0.6rem;
             text-align: center;
