@@ -149,178 +149,6 @@ main {
     font-size: 1.5rem;
 }
 
-@media (max-width: 412px) {  
-    /* Center the logo on a new line */
-    #Headersec {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;
-        background: #000;
-        padding: 10px 0;
-    }
-
-    .logo-container {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-bottom: 10px; /* Add space between logo and nav */
-    }
-
-    /* Ensure navbar appears below the logo */
-    .navbar {
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-links {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        gap: 10px; /* Space between menu items */
-    }
-
-    .nav-links li {
-        display: inline-block;
-    }
-
-    .nav-links li a {
-        font-size: 12px; /* Adjust size */
-        white-space: nowrap;
-    }
-
-    /* ✅ Hide call and email buttons */
-    .phbtn, 
-    .mailbtn {
-        display: none !important;
-    }
-
-        /* Make the image carousel responsive */
-        #image-carousel {
-            max-width: 100%;
-            margin: 0 auto;
-        }
-    
-        .splide {
-            max-width: 100%;
-        }
-    
-        .splide__slide img {
-            width: 100%; /* Make images fit within the screen */
-            height: auto;
-            border-radius: 10px; /* Optional: rounded corners for better aesthetics */
-        }
-    
-        /* Style thumbnails */
-        .thumbnail-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 5px;
-            margin-top: 10px;
-        }
-    
-        .thumbnail {
-            width: 50px; /* Smaller size for thumbnails */
-            height: auto;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: transform 0.2s ease-in-out;
-        }
-    
-        .thumbnail:hover {
-            transform: scale(1.1);
-        }
-
-        .sectionFirst {
-            padding: 3rem 1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            position: relative;
-            padding-bottom: 5rem;
-        }
-    
-        .heading, .about-heading {
-            font-size: 1.5rem;
-            text-align: center;
-            margin-bottom: 1rem;
-        }
-    
-        .para, .about-text {
-            font-size: 0.9rem; /* Reduced font size for better fit */
-            max-width: 85vw; /* Ensures text doesn't go out of frame */
-            padding: 0.6rem;
-            text-align: center;
-            white-space: normal;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            position: relative;
-            z-index: 1;
-            margin: 0 auto; /* Centers the text */
-        }
-    
-        .btn a {
-            font-size: 0.8rem; /* Reduce font size */
-            padding: 8px 16px; /* Adjust padding for a smaller button */
-            border-radius: 6px;
-            text-shadow: none;
-        }
-    
-        .btn {
-            margin-top: 1rem;
-            position: relative;
-            z-index: 2;
-        }
-
-        .footer-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            flex-wrap: wrap;
-        }
-    
-        /* Hide only the "Contact Us" heading */
-    .footer-column:first-child h3 {
-        display: none;
-    }
-    
-        .footer-form {
-            display: none; /* Hides the contact form */
-        }
-    
-        .footer-column {
-            width: auto;
-            font-size: 10px; /* Reduce font size */
-            margin: 1px 0px;
-        }
-    
-        .footer-column ul {
-            font-size: 5px;
-            list-style: none;
-            padding: 0;
-        }
-    
-        .copyright {
-            color: #ffffff;
-            text-align: center;
-            width: 100%;
-            margin-top: 10px;
-            font-size: 12px; /* Reduce font size */
-        }
-    
-        footer {
-            background: url("../Images/41442-3840x2160-desktop-4k-google-background.jpg") center/cover no-repeat;
-            padding: 0px 0px;
-        }
-    
-    }
 
 .about-heading{
     display: flex;
@@ -550,7 +378,178 @@ footer {
     margin-bottom: 10px;
 }
 
+@media (max-width: 412px) {  
+    /* Center the logo on a new line */
+    #Headersec {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        background: #000;
+        padding: 10px 0;
+    }
 
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px; /* Add space between logo and nav */
+    }
+
+    /* Ensure navbar appears below the logo */
+    .navbar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        gap: 10px; /* Space between menu items */
+    }
+
+    .nav-links li {
+        display: inline-block;
+    }
+
+    .nav-links li a {
+        font-size: 12px; /* Adjust size */
+        white-space: nowrap;
+    }
+
+    /* ✅ Hide call and email buttons */
+    .phbtn, 
+    .mailbtn {
+        display: none !important;
+    }
+
+        /* Make the image carousel responsive */
+        #image-carousel {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    
+        .splide {
+            max-width: 100%;
+        }
+    
+        .splide__slide img {
+            width: 100%; /* Make images fit within the screen */
+            height: auto;
+            border-radius: 10px; /* Optional: rounded corners for better aesthetics */
+        }
+    
+        /* Style thumbnails */
+        .thumbnail-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+        }
+    
+        .thumbnail {
+            width: 50px; /* Smaller size for thumbnails */
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+    
+        .thumbnail:hover {
+            transform: scale(1.1);
+        }
+
+        .sectionFirst {
+            padding: 3rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            padding-bottom: 5rem;
+        }
+    
+        .heading, .about-heading {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    
+        .para, .about-text {
+            font-size: 0.9rem; /* Reduced font size for better fit */
+            max-width: 85vw; /* Ensures text doesn't go out of frame */
+            padding: 0.6rem;
+            text-align: center;
+            white-space: normal;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            position: relative;
+            z-index: 1;
+            margin: 0 auto; /* Centers the text */
+        }
+    
+        .btn a {
+            font-size: 0.8rem; /* Reduce font size */
+            padding: 8px 16px; /* Adjust padding for a smaller button */
+            border-radius: 6px;
+            text-shadow: none;
+        }
+    
+        .btn {
+            margin-top: 1rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+    
+        /* Hide only the "Contact Us" heading */
+    .footer-column:first-child h3 {
+        display: none;
+    }
+    
+        .footer-form {
+            display: none; /* Hides the contact form */
+        }
+    
+        .footer-column {
+            width: auto;
+            font-size: 10px; /* Reduce font size */
+            margin: 1px 0px;
+        }
+    
+        .footer-column ul {
+            font-size: 5px;
+            list-style: none;
+            padding: 0;
+        }
+    
+        .copyright {
+            color: #ffffff;
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+            font-size: 12px; /* Reduce font size */
+        }
+    
+        footer {
+            background: url("../Images/41442-3840x2160-desktop-4k-google-background.jpg") center/cover no-repeat;
+            padding: 0px 0px;
+        }
+    
+    }
 
 
 body{
