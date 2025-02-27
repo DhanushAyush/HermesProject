@@ -378,7 +378,7 @@ footer {
     margin-bottom: 10px;
 }
 
-@media (max-width: 412px) {  
+@media (max-width: 768px) {  
     /* Center the logo on a new line */
     #Headersec {
         display: flex;
